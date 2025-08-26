@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Schoolbell&display=swap"
+      rel="stylesheet"
+    />
+    <title>Basic HTML Website</title>
+
+    <style>
+      body {
+        margin: 0;
+      }
+
+      #nav {
+        margin: 0px 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      #nav-left {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 15px;
+      }
+
+      #nav-right ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        list-style-type: none;
+        gap: 10px;
+      }
+
+      #nav-right ul li a {
+        text-decoration: none;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav id="nav" style="font-family: 'Lexend', sans-serif">
+      <div id="nav-left">
+        <a href="index.html">
+          <img src="./logo.jpg" width="40px" height="40px" alt="Logo" />
+        </a>
+        <h1>Faiyaz</h1>
+      </div>
+      <div id="nav-right">
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <span>/</span>
+          <li>
+            <a href="projects.html">Projects</a>
+          </li>
+          <span>/</span>
+          <li>
+            <a href="articles.html">Articles</a>
+          </li>
+          <span>/</span>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- BANNER -->
+    <section id="banner" style="font-family: 'Schoolbell', cursive">
+      <div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <div>
+        <div></div>
+        <div></div>
+      </div>
+      <div></div>
+    </section>
+  </body>
+</html>
